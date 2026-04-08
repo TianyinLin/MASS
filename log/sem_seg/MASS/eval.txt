@@ -1,0 +1,143 @@
+2026-02-10 11:46:23,933 - Model - INFO - PARAMETER ...
+2026-02-10 11:46:23,947 - Model - INFO - Namespace(batch_size=1, epoch=None, gpu='0', seqlen=10, datapath='G:\\LTY\\compare_method\\data\\MIRST', dataset='MIRST', log_dir='MASS', logpath='./log/', visual=False, threshold_eval=0.5, attribution=False)
+2026-02-10 11:46:25,533 - Model - INFO - Reparameterized 8 modules for inference (deploy mode)
+2026-02-10 11:46:25,533 - Model - INFO - ---- EVALUATION----
+2026-02-10 11:46:41,927 - Model - INFO - PARAMETER ...
+2026-02-10 11:46:41,928 - Model - INFO - Namespace(batch_size=1, epoch=None, gpu='0', seqlen=10, datapath='G:\\LTY\\compare_method\\data\\MIRST', dataset='MIRST', log_dir='MASS', logpath='./log/', visual=False, threshold_eval=0.5, attribution=False)
+2026-02-10 11:46:43,055 - Model - INFO - Reparameterized 8 modules for inference (deploy mode)
+2026-02-10 11:46:43,056 - Model - INFO - ---- EVALUATION----
+2026-02-10 11:56:32,010 - Model - INFO - Warning: Only 1 threshold(s) provided, cannot compute AUC (need at least 2 points)
+
+2026-02-10 11:56:32,010 - Model - INFO - 0001 results:
+
+2026-02-10 11:56:32,010 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1483/1500, 0.98867]	FA:[88, 1.118978e-06]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0007 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[900/900, 1.00000]	FA:[602, 7.654826e-06]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0011 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[867/867, 1.00000]	FA:[169, 2.230740e-06]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0016 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1500/1500, 1.00000]	FA:[74, 9.409587e-07]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0026 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[962/1500, 0.64133]	FA:[936, 1.190186e-05]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0035 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1146/1200, 0.95500]	FA:[6546, 8.323669e-05]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0038 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1179/1200, 0.98250]	FA:[17, 2.161662e-07]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0045 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[831/900, 0.92333]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0049 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[783/900, 0.87000]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0052 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1200/1200, 1.00000]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0056 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[900/900, 1.00000]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0063 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1199/1200, 0.99917]	FA:[2, 2.543132e-08]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0067 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1200/1200, 1.00000]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0071 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1200/1200, 1.00000]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0078 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1200/1200, 1.00000]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,011 - Model - INFO - 0082 results:
+
+2026-02-10 11:56:32,011 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1200/1200, 1.00000]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0087 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1129/1200, 0.94083]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0092 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1200/1200, 1.00000]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0096 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1200/1200, 1.00000]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0102 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1428/1500, 0.95200]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0105 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1486/1499, 0.99133]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0108 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1101/1200, 0.91750]	FA:[417, 5.302429e-06]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0112 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1191/1200, 0.99250]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0116 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1500/1500, 1.00000]	FA:[19, 2.415975e-07]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0123 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1500/1500, 1.00000]	FA:[386, 4.908244e-06]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0127 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[888/900, 0.98667]	FA:[150, 1.907349e-06]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0136 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[787/900, 0.87444]	FA:[3381, 4.299164e-05]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0141 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[869/900, 0.96556]	FA:[1, 1.271566e-08]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0147 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[533/600, 0.88833]	FA:[4147, 5.273183e-05]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0155 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1360/1500, 0.90667]	FA:[0, 0.000000e+00]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0159 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1341/1500, 0.89400]	FA:[84, 1.068115e-06]
+
+2026-02-10 11:56:32,012 - Model - INFO - 0162 results:
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[1116/1200, 0.93000]	FA:[4, 5.086263e-08]
+
+2026-02-10 11:56:32,012 - Model - INFO - Final results:	AUC: N/A (insufficient data points)
+
+2026-02-10 11:56:32,012 - Model - INFO - Th_Seg = 5.000000e-01:	PD:[36379/38066, 0.95568]	FA:[17023, 6.772092e-06]
+
+2026-02-10 11:56:32,013 - Model - INFO - Eval avg class IoU of prediction: 0.807730

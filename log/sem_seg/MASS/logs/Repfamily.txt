@@ -1,0 +1,716 @@
+2026-01-12 21:41:32,862 - Model - INFO - PARAMETER ...
+2026-01-12 21:41:32,862 - Model - INFO - Namespace(model='Repfamily', batch_size=4, epoch=44, learning_rate=0.001, gpu='0', gpu_num=1, optimizer='Adam', datapath='G:\\LTY\\compare_method\\data\\MIRST', dataset='MIRST', log_dir=None, savepath='./log/', decay_rate=0.0001, seqlen=10, patch_size=128, step_size1=8, step_size2=5, sample_rate=0.35, lr_decay=0.6, threshold_eval=0.3)
+2026-01-12 21:41:38,722 - Model - INFO - The number of training data is guildes: 13395
+2026-01-12 21:41:38,723 - Model - INFO - The number of test data is: 34 sequences
+2026-01-12 21:41:40,218 - Model - INFO - Motion Loss enabled
+2026-01-12 21:41:40,220 - Model - INFO - No existing model, starting training from scratch...
+2026-01-12 21:41:40,220 - Model - INFO - **** Epoch 1 (1/44) ****
+2026-01-12 22:17:05,436 - Model - INFO - Training mean loss: 5.269401, SoftIoULoss: 1.501955, Motion Loss: 3.767446
+2026-01-12 22:17:05,436 - Model - INFO - Training accuracy (IoU) of prediction: 0.002608
+2026-01-12 22:17:05,437 - Model - INFO - Save model...
+2026-01-12 22:17:05,437 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_1_model.pth
+2026-01-12 22:17:05,566 - Model - INFO - Saving model....
+2026-01-12 22:17:05,695 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2026-01-12 22:35:17,324 - Model - INFO - Eval mean loss: 1.989656
+2026-01-12 22:35:17,324 - Model - INFO - Eval avg class IoU of prediction: 0.339040
+2026-01-12 22:35:17,324 - Model - INFO - Eval PD (threshold=0.5): 0.750589
+2026-01-12 22:35:17,324 - Model - INFO - Eval FA (threshold=0.5): 0.000116
+2026-01-12 22:35:17,324 - Model - INFO - Save model...
+2026-01-12 22:35:17,324 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-12 22:35:17,502 - Model - INFO - Saving model....
+2026-01-12 22:35:17,502 - Model - INFO - Best mIoU_mid: 0.339040
+2026-01-12 22:35:17,502 - Model - INFO - **** Epoch 2 (2/44) ****
+2026-01-12 22:35:17,502 - Model - INFO - Learning rate:0.001000
+2026-01-12 23:08:23,628 - Model - INFO - Training mean loss: 3.401520, SoftIoULoss: 0.989177, Motion Loss: 2.412343
+2026-01-12 23:08:23,628 - Model - INFO - Training accuracy (IoU) of prediction: 0.626625
+2026-01-12 23:08:23,628 - Model - INFO - Save model...
+2026-01-12 23:08:23,628 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_2_model.pth
+2026-01-12 23:08:23,758 - Model - INFO - Saving model....
+2026-01-12 23:08:23,866 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2026-01-12 23:26:42,883 - Model - INFO - Eval mean loss: 3.239498
+2026-01-12 23:26:42,883 - Model - INFO - Eval avg class IoU of prediction: 0.537001
+2026-01-12 23:26:42,884 - Model - INFO - Eval PD (threshold=0.5): 0.701600
+2026-01-12 23:26:42,884 - Model - INFO - Eval FA (threshold=0.5): 0.000013
+2026-01-12 23:26:42,884 - Model - INFO - Save model...
+2026-01-12 23:26:42,884 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-12 23:26:43,067 - Model - INFO - Saving model....
+2026-01-12 23:26:43,067 - Model - INFO - Best mIoU_mid: 0.537001
+2026-01-12 23:26:43,067 - Model - INFO - **** Epoch 3 (3/44) ****
+2026-01-12 23:26:43,067 - Model - INFO - Learning rate:0.001000
+2026-01-13 00:00:37,174 - Model - INFO - Training mean loss: 3.025655, SoftIoULoss: 0.902942, Motion Loss: 2.122713
+2026-01-13 00:00:37,174 - Model - INFO - Training accuracy (IoU) of prediction: 0.680180
+2026-01-13 00:00:37,174 - Model - INFO - Save model...
+2026-01-13 00:00:37,174 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_3_model.pth
+2026-01-13 00:00:37,301 - Model - INFO - Saving model....
+2026-01-13 00:00:37,421 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2026-01-13 00:19:25,177 - Model - INFO - Eval mean loss: 3.371987
+2026-01-13 00:19:25,177 - Model - INFO - Eval avg class IoU of prediction: 0.355416
+2026-01-13 00:19:25,177 - Model - INFO - Eval PD (threshold=0.5): 0.801936
+2026-01-13 00:19:25,177 - Model - INFO - Eval FA (threshold=0.5): 0.000136
+2026-01-13 00:19:25,177 - Model - INFO - Best mIoU_mid: 0.537001
+2026-01-13 00:19:25,178 - Model - INFO - **** Epoch 4 (4/44) ****
+2026-01-13 00:19:25,178 - Model - INFO - Learning rate:0.001000
+2026-01-13 00:53:16,090 - Model - INFO - Training mean loss: 2.862368, SoftIoULoss: 0.868284, Motion Loss: 1.994084
+2026-01-13 00:53:16,090 - Model - INFO - Training accuracy (IoU) of prediction: 0.708643
+2026-01-13 00:53:16,090 - Model - INFO - Save model...
+2026-01-13 00:53:16,090 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_4_model.pth
+2026-01-13 00:53:16,305 - Model - INFO - Saving model....
+2026-01-13 00:53:16,423 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2026-01-13 01:12:06,178 - Model - INFO - Eval mean loss: 1.627212
+2026-01-13 01:12:06,179 - Model - INFO - Eval avg class IoU of prediction: 0.588217
+2026-01-13 01:12:06,179 - Model - INFO - Eval PD (threshold=0.5): 0.820750
+2026-01-13 01:12:06,179 - Model - INFO - Eval FA (threshold=0.5): 0.000028
+2026-01-13 01:12:06,179 - Model - INFO - Save model...
+2026-01-13 01:12:06,179 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-13 01:12:06,306 - Model - INFO - Saving model....
+2026-01-13 01:12:06,306 - Model - INFO - Best mIoU_mid: 0.588217
+2026-01-13 01:12:06,306 - Model - INFO - **** Epoch 5 (5/44) ****
+2026-01-13 01:12:06,306 - Model - INFO - Learning rate:0.001000
+2026-01-13 01:45:55,118 - Model - INFO - Training mean loss: 2.746727, SoftIoULoss: 0.830383, Motion Loss: 1.916344
+2026-01-13 01:45:55,118 - Model - INFO - Training accuracy (IoU) of prediction: 0.738063
+2026-01-13 01:45:55,118 - Model - INFO - Save model...
+2026-01-13 01:45:55,118 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_5_model.pth
+2026-01-13 01:45:55,654 - Model - INFO - Saving model....
+2026-01-13 01:45:55,771 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2026-01-13 02:04:41,346 - Model - INFO - Eval mean loss: 1.502918
+2026-01-13 02:04:41,346 - Model - INFO - Eval avg class IoU of prediction: 0.444140
+2026-01-13 02:04:41,346 - Model - INFO - Eval PD (threshold=0.5): 0.872122
+2026-01-13 02:04:41,346 - Model - INFO - Eval FA (threshold=0.5): 0.000102
+2026-01-13 02:04:41,346 - Model - INFO - Best mIoU_mid: 0.588217
+2026-01-13 02:04:41,346 - Model - INFO - **** Epoch 6 (6/44) ****
+2026-01-13 02:04:41,346 - Model - INFO - Learning rate:0.001000
+2026-01-13 02:38:31,854 - Model - INFO - Training mean loss: 2.626231, SoftIoULoss: 0.835159, Motion Loss: 1.791072
+2026-01-13 02:38:31,855 - Model - INFO - Training accuracy (IoU) of prediction: 0.743769
+2026-01-13 02:38:31,855 - Model - INFO - Save model...
+2026-01-13 02:38:31,855 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_6_model.pth
+2026-01-13 02:38:31,989 - Model - INFO - Saving model....
+2026-01-13 02:38:32,105 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2026-01-13 02:57:21,900 - Model - INFO - Eval mean loss: 1.765336
+2026-01-13 02:57:21,901 - Model - INFO - Eval avg class IoU of prediction: 0.505890
+2026-01-13 02:57:21,901 - Model - INFO - Eval PD (threshold=0.5): 0.817765
+2026-01-13 02:57:21,901 - Model - INFO - Eval FA (threshold=0.5): 0.000056
+2026-01-13 02:57:21,901 - Model - INFO - Best mIoU_mid: 0.588217
+2026-01-13 02:57:21,901 - Model - INFO - **** Epoch 7 (7/44) ****
+2026-01-13 02:57:21,901 - Model - INFO - Learning rate:0.001000
+2026-01-13 03:31:09,545 - Model - INFO - Training mean loss: 2.520058, SoftIoULoss: 0.809054, Motion Loss: 1.711004
+2026-01-13 03:31:09,545 - Model - INFO - Training accuracy (IoU) of prediction: 0.755423
+2026-01-13 03:31:09,545 - Model - INFO - Save model...
+2026-01-13 03:31:09,545 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_7_model.pth
+2026-01-13 03:31:09,686 - Model - INFO - Saving model....
+2026-01-13 03:31:09,811 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2026-01-13 03:49:57,806 - Model - INFO - Eval mean loss: 4.815015
+2026-01-13 03:49:57,806 - Model - INFO - Eval avg class IoU of prediction: 0.526312
+2026-01-13 03:49:57,806 - Model - INFO - Eval PD (threshold=0.5): 0.847740
+2026-01-13 03:49:57,806 - Model - INFO - Eval FA (threshold=0.5): 0.000057
+2026-01-13 03:49:57,806 - Model - INFO - Best mIoU_mid: 0.588217
+2026-01-13 03:49:57,807 - Model - INFO - **** Epoch 8 (8/44) ****
+2026-01-13 03:49:57,807 - Model - INFO - Learning rate:0.001000
+2026-01-13 04:23:47,815 - Model - INFO - Training mean loss: 2.430204, SoftIoULoss: 0.792820, Motion Loss: 1.637384
+2026-01-13 04:23:47,816 - Model - INFO - Training accuracy (IoU) of prediction: 0.765947
+2026-01-13 04:23:47,816 - Model - INFO - Save model...
+2026-01-13 04:23:47,816 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_8_model.pth
+2026-01-13 04:23:47,949 - Model - INFO - Saving model....
+2026-01-13 04:23:48,067 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2026-01-13 04:42:31,007 - Model - INFO - Eval mean loss: 1.705882
+2026-01-13 04:42:31,007 - Model - INFO - Eval avg class IoU of prediction: 0.526560
+2026-01-13 04:42:31,007 - Model - INFO - Eval PD (threshold=0.5): 0.883786
+2026-01-13 04:42:31,007 - Model - INFO - Eval FA (threshold=0.5): 0.000065
+2026-01-13 04:42:31,007 - Model - INFO - Best mIoU_mid: 0.588217
+2026-01-13 04:42:31,007 - Model - INFO - **** Epoch 9 (9/44) ****
+2026-01-13 04:42:31,007 - Model - INFO - Learning rate:0.000600
+2026-01-13 05:16:19,669 - Model - INFO - Training mean loss: 2.151334, SoftIoULoss: 0.763585, Motion Loss: 1.387748
+2026-01-13 05:16:19,669 - Model - INFO - Training accuracy (IoU) of prediction: 0.787126
+2026-01-13 05:16:19,670 - Model - INFO - Save model...
+2026-01-13 05:16:19,670 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_9_model.pth
+2026-01-13 05:16:19,803 - Model - INFO - Saving model....
+2026-01-13 05:16:19,923 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2026-01-13 05:35:08,223 - Model - INFO - Eval mean loss: 1.716796
+2026-01-13 05:35:08,224 - Model - INFO - Eval avg class IoU of prediction: 0.473783
+2026-01-13 05:35:08,224 - Model - INFO - Eval PD (threshold=0.5): 0.887047
+2026-01-13 05:35:08,224 - Model - INFO - Eval FA (threshold=0.5): 0.000091
+2026-01-13 05:35:08,224 - Model - INFO - Best mIoU_mid: 0.588217
+2026-01-13 05:35:08,224 - Model - INFO - **** Epoch 10 (10/44) ****
+2026-01-13 05:35:08,224 - Model - INFO - Learning rate:0.000600
+2026-01-13 06:08:59,694 - Model - INFO - Training mean loss: 2.111913, SoftIoULoss: 0.754958, Motion Loss: 1.356956
+2026-01-13 06:08:59,695 - Model - INFO - Training accuracy (IoU) of prediction: 0.794869
+2026-01-13 06:08:59,695 - Model - INFO - Save model...
+2026-01-13 06:08:59,695 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_10_model.pth
+2026-01-13 06:08:59,827 - Model - INFO - Saving model....
+2026-01-13 06:08:59,949 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2026-01-13 06:27:47,802 - Model - INFO - Eval mean loss: 2.121117
+2026-01-13 06:27:47,803 - Model - INFO - Eval avg class IoU of prediction: 0.513706
+2026-01-13 06:27:47,803 - Model - INFO - Eval PD (threshold=0.5): 0.899288
+2026-01-13 06:27:47,803 - Model - INFO - Eval FA (threshold=0.5): 0.000076
+2026-01-13 06:27:47,803 - Model - INFO - Best mIoU_mid: 0.588217
+2026-01-13 06:27:47,803 - Model - INFO - **** Epoch 11 (11/44) ****
+2026-01-13 06:27:47,803 - Model - INFO - Learning rate:0.000600
+2026-01-13 07:01:38,470 - Model - INFO - Training mean loss: 2.035003, SoftIoULoss: 0.747541, Motion Loss: 1.287461
+2026-01-13 07:01:38,470 - Model - INFO - Training accuracy (IoU) of prediction: 0.802338
+2026-01-13 07:01:38,470 - Model - INFO - Save model...
+2026-01-13 07:01:38,470 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_11_model.pth
+2026-01-13 07:01:38,608 - Model - INFO - Saving model....
+2026-01-13 07:01:38,728 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2026-01-13 07:20:26,697 - Model - INFO - Eval mean loss: 1.863049
+2026-01-13 07:20:26,698 - Model - INFO - Eval avg class IoU of prediction: 0.603863
+2026-01-13 07:20:26,698 - Model - INFO - Eval PD (threshold=0.5): 0.908669
+2026-01-13 07:20:26,698 - Model - INFO - Eval FA (threshold=0.5): 0.000044
+2026-01-13 07:20:26,698 - Model - INFO - Save model...
+2026-01-13 07:20:26,698 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-13 07:20:27,352 - Model - INFO - Saving model....
+2026-01-13 07:20:27,352 - Model - INFO - Best mIoU_mid: 0.603863
+2026-01-13 07:20:27,352 - Model - INFO - **** Epoch 12 (12/44) ****
+2026-01-13 07:20:27,352 - Model - INFO - Learning rate:0.000600
+2026-01-13 07:54:21,084 - Model - INFO - Training mean loss: 2.003196, SoftIoULoss: 0.743738, Motion Loss: 1.259458
+2026-01-13 07:54:21,084 - Model - INFO - Training accuracy (IoU) of prediction: 0.799372
+2026-01-13 07:54:21,084 - Model - INFO - Save model...
+2026-01-13 07:54:21,084 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_12_model.pth
+2026-01-13 07:54:21,222 - Model - INFO - Saving model....
+2026-01-13 07:54:21,346 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2026-01-13 08:13:07,493 - Model - INFO - Eval mean loss: 1.557759
+2026-01-13 08:13:07,493 - Model - INFO - Eval avg class IoU of prediction: 0.453645
+2026-01-13 08:13:07,493 - Model - INFO - Eval PD (threshold=0.5): 0.929363
+2026-01-13 08:13:07,493 - Model - INFO - Eval FA (threshold=0.5): 0.000118
+2026-01-13 08:13:07,493 - Model - INFO - Best mIoU_mid: 0.603863
+2026-01-13 08:13:07,493 - Model - INFO - **** Epoch 13 (13/44) ****
+2026-01-13 08:13:07,493 - Model - INFO - Learning rate:0.000600
+2026-01-13 08:46:58,728 - Model - INFO - Training mean loss: 1.965911, SoftIoULoss: 0.743585, Motion Loss: 1.222326
+2026-01-13 08:46:58,728 - Model - INFO - Training accuracy (IoU) of prediction: 0.802822
+2026-01-13 08:46:58,728 - Model - INFO - Save model...
+2026-01-13 08:46:58,728 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_13_model.pth
+2026-01-13 08:46:58,863 - Model - INFO - Saving model....
+2026-01-13 08:46:58,979 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2026-01-13 09:05:54,350 - Model - INFO - Eval mean loss: 8.618331
+2026-01-13 09:05:54,350 - Model - INFO - Eval avg class IoU of prediction: 0.350105
+2026-01-13 09:05:54,350 - Model - INFO - Eval PD (threshold=0.5): 0.875809
+2026-01-13 09:05:54,350 - Model - INFO - Eval FA (threshold=0.5): 0.000171
+2026-01-13 09:05:54,350 - Model - INFO - Best mIoU_mid: 0.603863
+2026-01-13 09:05:54,351 - Model - INFO - **** Epoch 14 (14/44) ****
+2026-01-13 09:05:54,351 - Model - INFO - Learning rate:0.000600
+2026-01-13 17:05:45,107 - Model - INFO - Training mean loss: 2.024088, SoftIoULoss: 0.752513, Motion Loss: 1.271575
+2026-01-13 17:05:45,107 - Model - INFO - Training accuracy (IoU) of prediction: 0.799944
+2026-01-13 17:05:45,107 - Model - INFO - Save model...
+2026-01-13 17:05:45,107 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_12_model.pth
+2026-01-13 17:05:45,242 - Model - INFO - Saving model....
+2026-01-13 17:05:45,358 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2026-01-13 17:23:06,321 - Model - INFO - Eval mean loss: 1.769855
+2026-01-13 17:23:06,321 - Model - INFO - Eval avg class IoU of prediction: 0.629523
+2026-01-13 17:23:06,321 - Model - INFO - Eval PD (threshold=0.5): 0.922064
+2026-01-13 17:23:06,321 - Model - INFO - Eval FA (threshold=0.5): 0.000040
+2026-01-13 17:23:06,321 - Model - INFO - Save model...
+2026-01-13 17:23:06,321 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-13 17:23:06,498 - Model - INFO - Saving model....
+2026-01-13 17:23:06,498 - Model - INFO - Best mIoU_mid: 0.629523
+2026-01-13 17:23:06,498 - Model - INFO - **** Epoch 2 (13/44) ****
+2026-01-13 17:23:06,498 - Model - INFO - Learning rate:0.000600
+2026-01-13 17:56:00,690 - Model - INFO - Training mean loss: 1.997236, SoftIoULoss: 0.735306, Motion Loss: 1.261930
+2026-01-13 17:56:00,691 - Model - INFO - Training accuracy (IoU) of prediction: 0.798593
+2026-01-13 17:56:00,691 - Model - INFO - Save model...
+2026-01-13 17:56:00,691 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_13_model.pth
+2026-01-13 17:56:00,811 - Model - INFO - Saving model....
+2026-01-13 17:56:00,928 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2026-01-13 18:13:19,423 - Model - INFO - Eval mean loss: 2.011644
+2026-01-13 18:13:19,424 - Model - INFO - Eval avg class IoU of prediction: 0.717677
+2026-01-13 18:13:19,424 - Model - INFO - Eval PD (threshold=0.5): 0.930768
+2026-01-13 18:13:19,424 - Model - INFO - Eval FA (threshold=0.5): 0.000018
+2026-01-13 18:13:19,424 - Model - INFO - Save model...
+2026-01-13 18:13:19,424 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-13 18:13:19,600 - Model - INFO - Saving model....
+2026-01-13 18:13:19,600 - Model - INFO - Best mIoU_mid: 0.717677
+2026-01-13 18:13:19,600 - Model - INFO - **** Epoch 3 (14/44) ****
+2026-01-13 18:13:19,601 - Model - INFO - Learning rate:0.000600
+2026-01-13 18:46:42,078 - Model - INFO - Training mean loss: 1.991430, SoftIoULoss: 0.742521, Motion Loss: 1.248909
+2026-01-13 18:46:42,079 - Model - INFO - Training accuracy (IoU) of prediction: 0.803073
+2026-01-13 18:46:42,079 - Model - INFO - Save model...
+2026-01-13 18:46:42,079 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_14_model.pth
+2026-01-13 18:46:42,212 - Model - INFO - Saving model....
+2026-01-13 18:46:42,326 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2026-01-13 19:04:12,178 - Model - INFO - Eval mean loss: 4.220560
+2026-01-13 19:04:12,178 - Model - INFO - Eval avg class IoU of prediction: 0.650543
+2026-01-13 19:04:12,178 - Model - INFO - Eval PD (threshold=0.5): 0.825967
+2026-01-13 19:04:12,178 - Model - INFO - Eval FA (threshold=0.5): 0.000012
+2026-01-13 19:04:12,178 - Model - INFO - Best mIoU_mid: 0.717677
+2026-01-13 19:04:12,178 - Model - INFO - **** Epoch 4 (15/44) ****
+2026-01-13 19:04:12,178 - Model - INFO - Learning rate:0.000600
+2026-01-13 19:37:34,331 - Model - INFO - Training mean loss: 1.949757, SoftIoULoss: 0.746690, Motion Loss: 1.203067
+2026-01-13 19:37:34,332 - Model - INFO - Training accuracy (IoU) of prediction: 0.801639
+2026-01-13 19:37:34,332 - Model - INFO - Save model...
+2026-01-13 19:37:34,332 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_15_model.pth
+2026-01-13 19:37:34,462 - Model - INFO - Saving model....
+2026-01-13 19:37:34,578 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2026-01-13 19:55:17,513 - Model - INFO - Eval mean loss: 4.400608
+2026-01-13 19:55:17,513 - Model - INFO - Eval avg class IoU of prediction: 0.711054
+2026-01-13 19:55:17,513 - Model - INFO - Eval PD (threshold=0.5): 0.908468
+2026-01-13 19:55:17,513 - Model - INFO - Eval FA (threshold=0.5): 0.000016
+2026-01-13 19:55:17,513 - Model - INFO - Best mIoU_mid: 0.717677
+2026-01-13 19:55:17,514 - Model - INFO - **** Epoch 5 (16/44) ****
+2026-01-13 19:55:17,514 - Model - INFO - Learning rate:0.000600
+2026-01-13 20:28:35,428 - Model - INFO - Training mean loss: 1.942024, SoftIoULoss: 0.742678, Motion Loss: 1.199346
+2026-01-13 20:28:35,429 - Model - INFO - Training accuracy (IoU) of prediction: 0.806864
+2026-01-13 20:28:35,429 - Model - INFO - Save model...
+2026-01-13 20:28:35,429 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_16_model.pth
+2026-01-13 20:28:35,559 - Model - INFO - Saving model....
+2026-01-13 20:28:35,680 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2026-01-13 20:46:15,402 - Model - INFO - Eval mean loss: 1.628797
+2026-01-13 20:46:15,402 - Model - INFO - Eval avg class IoU of prediction: 0.537795
+2026-01-13 20:46:15,402 - Model - INFO - Eval PD (threshold=0.5): 0.912030
+2026-01-13 20:46:15,402 - Model - INFO - Eval FA (threshold=0.5): 0.000071
+2026-01-13 20:46:15,402 - Model - INFO - Best mIoU_mid: 0.717677
+2026-01-13 20:46:15,402 - Model - INFO - **** Epoch 6 (17/44) ****
+2026-01-13 20:46:15,402 - Model - INFO - Learning rate:0.000360
+2026-01-13 21:19:17,054 - Model - INFO - Training mean loss: 1.769445, SoftIoULoss: 0.717792, Motion Loss: 1.051653
+2026-01-13 21:19:17,054 - Model - INFO - Training accuracy (IoU) of prediction: 0.817703
+2026-01-13 21:19:17,054 - Model - INFO - Save model...
+2026-01-13 21:19:17,054 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_17_model.pth
+2026-01-13 21:19:17,739 - Model - INFO - Saving model....
+2026-01-13 21:19:17,831 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2026-01-13 21:37:46,752 - Model - INFO - Eval mean loss: 1.564672
+2026-01-13 21:37:46,752 - Model - INFO - Eval avg class IoU of prediction: 0.551269
+2026-01-13 21:37:46,752 - Model - INFO - Eval PD (threshold=0.5): 0.925852
+2026-01-13 21:37:46,752 - Model - INFO - Eval FA (threshold=0.5): 0.000070
+2026-01-13 21:37:46,752 - Model - INFO - Best mIoU_mid: 0.717677
+2026-01-13 21:37:46,753 - Model - INFO - **** Epoch 7 (18/44) ****
+2026-01-13 21:37:46,753 - Model - INFO - Learning rate:0.000360
+2026-01-13 22:09:10,101 - Model - INFO - Training mean loss: 1.748206, SoftIoULoss: 0.715162, Motion Loss: 1.033044
+2026-01-13 22:09:10,101 - Model - INFO - Training accuracy (IoU) of prediction: 0.826445
+2026-01-13 22:09:10,101 - Model - INFO - Save model...
+2026-01-13 22:09:10,101 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_18_model.pth
+2026-01-13 22:09:10,191 - Model - INFO - Saving model....
+2026-01-13 22:09:10,279 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2026-01-13 22:27:39,221 - Model - INFO - Eval mean loss: 1.928215
+2026-01-13 22:27:39,221 - Model - INFO - Eval avg class IoU of prediction: 0.582678
+2026-01-13 22:27:39,221 - Model - INFO - Eval PD (threshold=0.5): 0.947750
+2026-01-13 22:27:39,221 - Model - INFO - Eval FA (threshold=0.5): 0.000063
+2026-01-13 22:27:39,221 - Model - INFO - Best mIoU_mid: 0.717677
+2026-01-13 22:27:39,221 - Model - INFO - **** Epoch 8 (19/44) ****
+2026-01-13 22:27:39,221 - Model - INFO - Learning rate:0.000360
+2026-01-13 22:59:56,652 - Model - INFO - Training mean loss: 1.727050, SoftIoULoss: 0.710727, Motion Loss: 1.016324
+2026-01-13 22:59:56,653 - Model - INFO - Training accuracy (IoU) of prediction: 0.822766
+2026-01-13 22:59:56,653 - Model - INFO - Save model...
+2026-01-13 22:59:56,653 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_19_model.pth
+2026-01-13 22:59:56,786 - Model - INFO - Saving model....
+2026-01-13 22:59:56,904 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2026-01-13 23:18:11,018 - Model - INFO - Eval mean loss: 2.804308
+2026-01-13 23:18:11,019 - Model - INFO - Eval avg class IoU of prediction: 0.719739
+2026-01-13 23:18:11,019 - Model - INFO - Eval PD (threshold=0.5): 0.914564
+2026-01-13 23:18:11,019 - Model - INFO - Eval FA (threshold=0.5): 0.000015
+2026-01-13 23:18:11,019 - Model - INFO - Save model...
+2026-01-13 23:18:11,019 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-13 23:18:11,204 - Model - INFO - Saving model....
+2026-01-13 23:18:11,204 - Model - INFO - Best mIoU_mid: 0.719739
+2026-01-13 23:18:11,204 - Model - INFO - **** Epoch 9 (20/44) ****
+2026-01-13 23:18:11,204 - Model - INFO - Learning rate:0.000360
+2026-01-13 23:52:09,419 - Model - INFO - Training mean loss: 1.719416, SoftIoULoss: 0.709183, Motion Loss: 1.010233
+2026-01-13 23:52:09,419 - Model - INFO - Training accuracy (IoU) of prediction: 0.826784
+2026-01-13 23:52:09,419 - Model - INFO - Save model...
+2026-01-13 23:52:09,419 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_20_model.pth
+2026-01-13 23:52:09,557 - Model - INFO - Saving model....
+2026-01-13 23:52:09,692 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2026-01-14 00:10:16,075 - Model - INFO - Eval mean loss: 1.488160
+2026-01-14 00:10:16,075 - Model - INFO - Eval avg class IoU of prediction: 0.721970
+2026-01-14 00:10:16,075 - Model - INFO - Eval PD (threshold=0.5): 0.899363
+2026-01-14 00:10:16,075 - Model - INFO - Eval FA (threshold=0.5): 0.000012
+2026-01-14 00:10:16,075 - Model - INFO - Save model...
+2026-01-14 00:10:16,075 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-14 00:10:16,260 - Model - INFO - Saving model....
+2026-01-14 00:10:16,260 - Model - INFO - Best mIoU_mid: 0.721970
+2026-01-14 00:10:16,260 - Model - INFO - **** Epoch 10 (21/44) ****
+2026-01-14 00:10:16,260 - Model - INFO - Learning rate:0.000360
+2026-01-14 00:44:13,889 - Model - INFO - Training mean loss: 1.696576, SoftIoULoss: 0.710491, Motion Loss: 0.986085
+2026-01-14 00:44:13,890 - Model - INFO - Training accuracy (IoU) of prediction: 0.827077
+2026-01-14 00:44:13,890 - Model - INFO - Save model...
+2026-01-14 00:44:13,890 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_21_model.pth
+2026-01-14 00:44:14,616 - Model - INFO - Saving model....
+2026-01-14 00:44:14,741 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2026-01-14 01:02:19,838 - Model - INFO - Eval mean loss: 1.033015
+2026-01-14 01:02:19,838 - Model - INFO - Eval avg class IoU of prediction: 0.740821
+2026-01-14 01:02:19,838 - Model - INFO - Eval PD (threshold=0.5): 0.928360
+2026-01-14 01:02:19,838 - Model - INFO - Eval FA (threshold=0.5): 0.000014
+2026-01-14 01:02:19,838 - Model - INFO - Save model...
+2026-01-14 01:02:19,838 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-14 01:02:20,023 - Model - INFO - Saving model....
+2026-01-14 01:02:20,023 - Model - INFO - Best mIoU_mid: 0.740821
+2026-01-14 01:02:20,023 - Model - INFO - **** Epoch 11 (22/44) ****
+2026-01-14 01:02:20,023 - Model - INFO - Learning rate:0.000360
+2026-01-14 01:36:17,254 - Model - INFO - Training mean loss: 1.702541, SoftIoULoss: 0.709832, Motion Loss: 0.992709
+2026-01-14 01:36:17,254 - Model - INFO - Training accuracy (IoU) of prediction: 0.829479
+2026-01-14 01:36:17,254 - Model - INFO - Save model...
+2026-01-14 01:36:17,254 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_22_model.pth
+2026-01-14 01:36:17,385 - Model - INFO - Saving model....
+2026-01-14 01:36:17,507 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2026-01-14 01:54:24,120 - Model - INFO - Eval mean loss: 1.420136
+2026-01-14 01:54:24,120 - Model - INFO - Eval avg class IoU of prediction: 0.710412
+2026-01-14 01:54:24,120 - Model - INFO - Eval PD (threshold=0.5): 0.921913
+2026-01-14 01:54:24,120 - Model - INFO - Eval FA (threshold=0.5): 0.000018
+2026-01-14 01:54:24,120 - Model - INFO - Best mIoU_mid: 0.740821
+2026-01-14 01:54:24,121 - Model - INFO - **** Epoch 12 (23/44) ****
+2026-01-14 01:54:24,121 - Model - INFO - Learning rate:0.000360
+2026-01-14 02:28:23,711 - Model - INFO - Training mean loss: 1.685697, SoftIoULoss: 0.696475, Motion Loss: 0.989222
+2026-01-14 02:28:23,711 - Model - INFO - Training accuracy (IoU) of prediction: 0.829425
+2026-01-14 02:28:23,711 - Model - INFO - Save model...
+2026-01-14 02:28:23,711 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_23_model.pth
+2026-01-14 02:28:23,943 - Model - INFO - Saving model....
+2026-01-14 02:28:24,068 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2026-01-14 02:46:53,028 - Model - INFO - Eval mean loss: 1.592494
+2026-01-14 02:46:53,028 - Model - INFO - Eval avg class IoU of prediction: 0.707527
+2026-01-14 02:46:53,028 - Model - INFO - Eval PD (threshold=0.5): 0.933352
+2026-01-14 02:46:53,029 - Model - INFO - Eval FA (threshold=0.5): 0.000022
+2026-01-14 02:46:53,029 - Model - INFO - Best mIoU_mid: 0.740821
+2026-01-14 02:46:53,029 - Model - INFO - **** Epoch 13 (24/44) ****
+2026-01-14 02:46:53,029 - Model - INFO - Learning rate:0.000360
+2026-01-14 03:20:55,238 - Model - INFO - Training mean loss: 1.683746, SoftIoULoss: 0.692378, Motion Loss: 0.991368
+2026-01-14 03:20:55,238 - Model - INFO - Training accuracy (IoU) of prediction: 0.833540
+2026-01-14 03:20:55,238 - Model - INFO - Save model...
+2026-01-14 03:20:55,238 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_24_model.pth
+2026-01-14 03:20:55,370 - Model - INFO - Saving model....
+2026-01-14 03:20:55,497 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2026-01-14 03:39:24,177 - Model - INFO - Eval mean loss: 2.022079
+2026-01-14 03:39:24,178 - Model - INFO - Eval avg class IoU of prediction: 0.612186
+2026-01-14 03:39:24,178 - Model - INFO - Eval PD (threshold=0.5): 0.932373
+2026-01-14 03:39:24,178 - Model - INFO - Eval FA (threshold=0.5): 0.000049
+2026-01-14 03:39:24,178 - Model - INFO - Best mIoU_mid: 0.740821
+2026-01-14 03:39:24,178 - Model - INFO - **** Epoch 14 (25/44) ****
+2026-01-14 03:39:24,178 - Model - INFO - Learning rate:0.000216
+2026-01-14 04:13:21,252 - Model - INFO - Training mean loss: 1.570276, SoftIoULoss: 0.691432, Motion Loss: 0.878844
+2026-01-14 04:13:21,252 - Model - INFO - Training accuracy (IoU) of prediction: 0.839973
+2026-01-14 04:13:21,252 - Model - INFO - Save model...
+2026-01-14 04:13:21,252 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_25_model.pth
+2026-01-14 04:13:22,079 - Model - INFO - Saving model....
+2026-01-14 04:13:22,200 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2026-01-14 04:31:48,552 - Model - INFO - Eval mean loss: 1.172269
+2026-01-14 04:31:48,552 - Model - INFO - Eval avg class IoU of prediction: 0.683427
+2026-01-14 04:31:48,553 - Model - INFO - Eval PD (threshold=0.5): 0.949707
+2026-01-14 04:31:48,553 - Model - INFO - Eval FA (threshold=0.5): 0.000032
+2026-01-14 04:31:48,553 - Model - INFO - Best mIoU_mid: 0.740821
+2026-01-14 04:31:48,553 - Model - INFO - **** Epoch 15 (26/44) ****
+2026-01-14 04:31:48,553 - Model - INFO - Learning rate:0.000078
+2026-01-14 05:05:48,251 - Model - INFO - Training mean loss: 1.508728, SoftIoULoss: 0.684578, Motion Loss: 0.824150
+2026-01-14 05:05:48,251 - Model - INFO - Training accuracy (IoU) of prediction: 0.848176
+2026-01-14 05:05:48,251 - Model - INFO - Save model...
+2026-01-14 05:05:48,251 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_26_model.pth
+2026-01-14 05:05:48,386 - Model - INFO - Saving model....
+2026-01-14 05:05:48,515 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2026-01-14 05:24:24,051 - Model - INFO - Eval mean loss: 1.322091
+2026-01-14 05:24:24,052 - Model - INFO - Eval avg class IoU of prediction: 0.678636
+2026-01-14 05:24:24,052 - Model - INFO - Eval PD (threshold=0.5): 0.954573
+2026-01-14 05:24:24,052 - Model - INFO - Eval FA (threshold=0.5): 0.000035
+2026-01-14 05:24:24,052 - Model - INFO - Best mIoU_mid: 0.740821
+2026-01-14 05:24:24,052 - Model - INFO - **** Epoch 16 (27/44) ****
+2026-01-14 05:24:24,052 - Model - INFO - Learning rate:0.000078
+2026-01-14 08:41:59,751 - Model - INFO - PARAMETER ...
+2026-01-14 08:41:59,752 - Model - INFO - Namespace(model='Repfamily', batch_size=4, epoch=44, learning_rate=0.001, gpu='0', gpu_num=1, optimizer='Adam', datapath='G:\\LTY\\compare_method\\data\\MIRST', dataset='MIRST', log_dir='MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10', savepath='./log/', decay_rate=0.0001, seqlen=10, patch_size=128, step_size1=8, step_size2=5, sample_rate=0.35, lr_decay=0.6, threshold_eval=0.3)
+2026-01-14 08:42:04,194 - Model - INFO - The number of training data is guildes: 13395
+2026-01-14 08:42:04,194 - Model - INFO - The number of test data is: 34 sequences
+2026-01-14 08:42:05,845 - Model - INFO - Motion Loss enabled
+2026-01-14 08:42:06,430 - Model - INFO - Use pretrain model
+2026-01-14 08:42:06,430 - Model - INFO - **** Epoch 1 (22/44) ****
+2026-01-14 09:14:37,811 - Model - INFO - Training mean loss: 1.689753, SoftIoULoss: 0.705727, Motion Loss: 0.984025
+2026-01-14 09:14:37,811 - Model - INFO - Training accuracy (IoU) of prediction: 0.833376
+2026-01-14 09:14:37,811 - Model - INFO - Save model...
+2026-01-14 09:14:37,813 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_22_model.pth
+2026-01-14 09:14:37,962 - Model - INFO - Saving model....
+2026-01-14 09:14:38,072 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2026-01-14 09:32:59,613 - Model - INFO - Eval mean loss: 2.740865
+2026-01-14 09:32:59,613 - Model - INFO - Eval avg class IoU of prediction: 0.638808
+2026-01-14 09:32:59,613 - Model - INFO - Eval PD (threshold=0.5): 0.943636
+2026-01-14 09:32:59,613 - Model - INFO - Eval FA (threshold=0.5): 0.000043
+2026-01-14 09:32:59,613 - Model - INFO - Save model...
+2026-01-14 09:32:59,613 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-14 09:32:59,734 - Model - INFO - Saving model....
+2026-01-14 09:32:59,734 - Model - INFO - Best mIoU_mid: 0.638808
+2026-01-14 09:32:59,734 - Model - INFO - **** Epoch 2 (23/44) ****
+2026-01-14 09:32:59,734 - Model - INFO - Learning rate:0.000360
+2026-01-14 10:03:49,701 - Model - INFO - Training mean loss: 1.646407, SoftIoULoss: 0.691977, Motion Loss: 0.954429
+2026-01-14 10:03:49,702 - Model - INFO - Training accuracy (IoU) of prediction: 0.830788
+2026-01-14 10:03:49,702 - Model - INFO - Save model...
+2026-01-14 10:03:49,702 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_23_model.pth
+2026-01-14 10:03:49,797 - Model - INFO - Saving model....
+2026-01-14 10:03:49,885 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2026-01-14 10:22:08,818 - Model - INFO - Eval mean loss: 1.528999
+2026-01-14 10:22:08,818 - Model - INFO - Eval avg class IoU of prediction: 0.744422
+2026-01-14 10:22:08,818 - Model - INFO - Eval PD (threshold=0.5): 0.948151
+2026-01-14 10:22:08,818 - Model - INFO - Eval FA (threshold=0.5): 0.000016
+2026-01-14 10:22:08,818 - Model - INFO - Save model...
+2026-01-14 10:22:08,818 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-14 10:22:08,938 - Model - INFO - Saving model....
+2026-01-14 10:22:08,938 - Model - INFO - Best mIoU_mid: 0.744422
+2026-01-14 10:22:08,938 - Model - INFO - **** Epoch 3 (24/44) ****
+2026-01-14 10:22:08,938 - Model - INFO - Learning rate:0.000360
+2026-01-14 10:53:02,234 - Model - INFO - Training mean loss: 1.662230, SoftIoULoss: 0.699547, Motion Loss: 0.962683
+2026-01-14 10:53:02,234 - Model - INFO - Training accuracy (IoU) of prediction: 0.830281
+2026-01-14 10:53:02,234 - Model - INFO - Save model...
+2026-01-14 10:53:02,234 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_24_model.pth
+2026-01-14 10:53:02,325 - Model - INFO - Saving model....
+2026-01-14 10:53:02,418 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2026-01-14 11:10:56,372 - Model - INFO - Eval mean loss: 1.646037
+2026-01-14 11:10:56,372 - Model - INFO - Eval avg class IoU of prediction: 0.701566
+2026-01-14 11:10:56,373 - Model - INFO - Eval PD (threshold=0.5): 0.942909
+2026-01-14 11:10:56,373 - Model - INFO - Eval FA (threshold=0.5): 0.000026
+2026-01-14 11:10:56,373 - Model - INFO - Best mIoU_mid: 0.744422
+2026-01-14 11:10:56,373 - Model - INFO - **** Epoch 4 (25/44) ****
+2026-01-14 11:10:56,373 - Model - INFO - Learning rate:0.000216
+2026-01-14 11:43:59,905 - Model - INFO - Training mean loss: 1.582258, SoftIoULoss: 0.685301, Motion Loss: 0.896956
+2026-01-14 11:43:59,906 - Model - INFO - Training accuracy (IoU) of prediction: 0.838229
+2026-01-14 11:43:59,906 - Model - INFO - Save model...
+2026-01-14 11:43:59,906 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_25_model.pth
+2026-01-14 11:44:00,034 - Model - INFO - Saving model....
+2026-01-14 11:44:00,147 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2026-01-14 12:01:36,838 - Model - INFO - Eval mean loss: 1.400828
+2026-01-14 12:01:36,839 - Model - INFO - Eval avg class IoU of prediction: 0.696904
+2026-01-14 12:01:36,839 - Model - INFO - Eval PD (threshold=0.5): 0.947976
+2026-01-14 12:01:36,839 - Model - INFO - Eval FA (threshold=0.5): 0.000028
+2026-01-14 12:01:36,839 - Model - INFO - Best mIoU_mid: 0.744422
+2026-01-14 12:01:36,839 - Model - INFO - **** Epoch 5 (26/44) ****
+2026-01-14 12:01:36,839 - Model - INFO - Learning rate:0.000078
+2026-01-14 12:34:46,844 - Model - INFO - Training mean loss: 1.479146, SoftIoULoss: 0.670507, Motion Loss: 0.808639
+2026-01-14 12:34:46,844 - Model - INFO - Training accuracy (IoU) of prediction: 0.848321
+2026-01-14 12:34:46,844 - Model - INFO - Save model...
+2026-01-14 12:34:46,844 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_26_model.pth
+2026-01-14 12:34:46,973 - Model - INFO - Saving model....
+2026-01-14 12:34:47,084 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2026-01-14 12:52:17,792 - Model - INFO - Eval mean loss: 2.657185
+2026-01-14 12:52:17,792 - Model - INFO - Eval avg class IoU of prediction: 0.608779
+2026-01-14 12:52:17,792 - Model - INFO - Eval PD (threshold=0.5): 0.935760
+2026-01-14 12:52:17,792 - Model - INFO - Eval FA (threshold=0.5): 0.000053
+2026-01-14 12:52:17,792 - Model - INFO - Best mIoU_mid: 0.744422
+2026-01-14 12:52:17,792 - Model - INFO - **** Epoch 6 (27/44) ****
+2026-01-14 12:52:17,792 - Model - INFO - Learning rate:0.000078
+2026-01-14 13:24:51,003 - Model - INFO - Training mean loss: 1.492637, SoftIoULoss: 0.674871, Motion Loss: 0.817767
+2026-01-14 13:24:51,003 - Model - INFO - Training accuracy (IoU) of prediction: 0.851408
+2026-01-14 13:24:51,003 - Model - INFO - Save model...
+2026-01-14 13:24:51,003 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_27_model.pth
+2026-01-14 13:24:51,130 - Model - INFO - Saving model....
+2026-01-14 13:24:51,240 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2026-01-14 13:42:09,271 - Model - INFO - Eval mean loss: 1.659531
+2026-01-14 13:42:09,272 - Model - INFO - Eval avg class IoU of prediction: 0.670824
+2026-01-14 13:42:09,272 - Model - INFO - Eval PD (threshold=0.5): 0.950911
+2026-01-14 13:42:09,272 - Model - INFO - Eval FA (threshold=0.5): 0.000037
+2026-01-14 13:42:09,272 - Model - INFO - Best mIoU_mid: 0.744422
+2026-01-14 13:42:09,272 - Model - INFO - **** Epoch 7 (28/44) ****
+2026-01-14 13:42:09,272 - Model - INFO - Learning rate:0.000078
+2026-01-14 14:14:55,168 - Model - INFO - Training mean loss: 1.487900, SoftIoULoss: 0.676540, Motion Loss: 0.811359
+2026-01-14 14:14:55,169 - Model - INFO - Training accuracy (IoU) of prediction: 0.851101
+2026-01-14 14:14:55,169 - Model - INFO - Save model...
+2026-01-14 14:14:55,169 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_28_model.pth
+2026-01-14 14:14:55,296 - Model - INFO - Saving model....
+2026-01-14 14:14:55,402 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2026-01-14 14:32:04,249 - Model - INFO - Eval mean loss: 3.160864
+2026-01-14 14:32:04,250 - Model - INFO - Eval avg class IoU of prediction: 0.681821
+2026-01-14 14:32:04,250 - Model - INFO - Eval PD (threshold=0.5): 0.951713
+2026-01-14 14:32:04,250 - Model - INFO - Eval FA (threshold=0.5): 0.000033
+2026-01-14 14:32:04,250 - Model - INFO - Best mIoU_mid: 0.744422
+2026-01-14 14:32:04,250 - Model - INFO - **** Epoch 8 (29/44) ****
+2026-01-14 14:32:04,250 - Model - INFO - Learning rate:0.000078
+2026-01-14 15:05:16,815 - Model - INFO - Training mean loss: 1.453646, SoftIoULoss: 0.670607, Motion Loss: 0.783039
+2026-01-14 15:05:16,815 - Model - INFO - Training accuracy (IoU) of prediction: 0.849503
+2026-01-14 15:05:16,816 - Model - INFO - Save model...
+2026-01-14 15:05:16,816 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_29_model.pth
+2026-01-14 15:05:17,537 - Model - INFO - Saving model....
+2026-01-14 15:05:17,657 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2026-01-14 15:23:09,290 - Model - INFO - Eval mean loss: 0.816590
+2026-01-14 15:23:09,290 - Model - INFO - Eval avg class IoU of prediction: 0.754611
+2026-01-14 15:23:09,290 - Model - INFO - Eval PD (threshold=0.5): 0.944063
+2026-01-14 15:23:09,290 - Model - INFO - Eval FA (threshold=0.5): 0.000014
+2026-01-14 15:23:09,290 - Model - INFO - Save model...
+2026-01-14 15:23:09,290 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-14 15:23:09,470 - Model - INFO - Saving model....
+2026-01-14 15:23:09,471 - Model - INFO - Best mIoU_mid: 0.754611
+2026-01-14 15:23:09,471 - Model - INFO - **** Epoch 9 (30/44) ****
+2026-01-14 15:23:09,471 - Model - INFO - Learning rate:0.000078
+2026-01-14 15:56:31,594 - Model - INFO - Training mean loss: 1.460659, SoftIoULoss: 0.664810, Motion Loss: 0.795850
+2026-01-14 15:56:31,594 - Model - INFO - Training accuracy (IoU) of prediction: 0.854595
+2026-01-14 15:56:31,594 - Model - INFO - Save model...
+2026-01-14 15:56:31,594 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_30_model.pth
+2026-01-14 15:56:31,725 - Model - INFO - Saving model....
+2026-01-14 15:56:31,844 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2026-01-14 16:14:29,329 - Model - INFO - Eval mean loss: 1.134617
+2026-01-14 16:14:29,330 - Model - INFO - Eval avg class IoU of prediction: 0.796504
+2026-01-14 16:14:29,330 - Model - INFO - Eval PD (threshold=0.5): 0.941604
+2026-01-14 16:14:29,330 - Model - INFO - Eval FA (threshold=0.5): 0.000006
+2026-01-14 16:14:29,330 - Model - INFO - Save model...
+2026-01-14 16:14:29,330 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/best_model.pth
+2026-01-14 16:14:29,511 - Model - INFO - Saving model....
+2026-01-14 16:14:29,511 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 16:14:29,511 - Model - INFO - **** Epoch 10 (31/44) ****
+2026-01-14 16:14:29,511 - Model - INFO - Learning rate:0.000047
+2026-01-14 16:46:53,372 - Model - INFO - Training mean loss: 1.419654, SoftIoULoss: 0.663340, Motion Loss: 0.756314
+2026-01-14 16:46:53,373 - Model - INFO - Training accuracy (IoU) of prediction: 0.856874
+2026-01-14 16:46:53,373 - Model - INFO - Save model...
+2026-01-14 16:46:53,373 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_31_model.pth
+2026-01-14 16:46:53,500 - Model - INFO - Saving model....
+2026-01-14 16:46:53,609 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2026-01-14 17:04:05,933 - Model - INFO - Eval mean loss: 1.106925
+2026-01-14 17:04:05,933 - Model - INFO - Eval avg class IoU of prediction: 0.794391
+2026-01-14 17:04:05,934 - Model - INFO - Eval PD (threshold=0.5): 0.949355
+2026-01-14 17:04:05,934 - Model - INFO - Eval FA (threshold=0.5): 0.000007
+2026-01-14 17:04:05,934 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 17:04:05,934 - Model - INFO - **** Epoch 11 (32/44) ****
+2026-01-14 17:04:05,934 - Model - INFO - Learning rate:0.000047
+2026-01-14 17:36:53,308 - Model - INFO - Training mean loss: 1.426980, SoftIoULoss: 0.665510, Motion Loss: 0.761470
+2026-01-14 17:36:53,308 - Model - INFO - Training accuracy (IoU) of prediction: 0.853787
+2026-01-14 17:36:53,308 - Model - INFO - Save model...
+2026-01-14 17:36:53,308 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_32_model.pth
+2026-01-14 17:36:53,436 - Model - INFO - Saving model....
+2026-01-14 17:36:53,541 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2026-01-14 17:54:08,420 - Model - INFO - Eval mean loss: 1.082349
+2026-01-14 17:54:08,420 - Model - INFO - Eval avg class IoU of prediction: 0.660597
+2026-01-14 17:54:08,420 - Model - INFO - Eval PD (threshold=0.5): 0.958461
+2026-01-14 17:54:08,420 - Model - INFO - Eval FA (threshold=0.5): 0.000042
+2026-01-14 17:54:08,420 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 17:54:08,420 - Model - INFO - **** Epoch 12 (33/44) ****
+2026-01-14 17:54:08,420 - Model - INFO - Learning rate:0.000047
+2026-01-14 18:27:15,700 - Model - INFO - Training mean loss: 1.434844, SoftIoULoss: 0.665768, Motion Loss: 0.769076
+2026-01-14 18:27:15,700 - Model - INFO - Training accuracy (IoU) of prediction: 0.853919
+2026-01-14 18:27:15,700 - Model - INFO - Save model...
+2026-01-14 18:27:15,700 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_33_model.pth
+2026-01-14 18:27:16,532 - Model - INFO - Saving model....
+2026-01-14 18:27:16,648 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2026-01-14 18:44:58,351 - Model - INFO - Eval mean loss: 0.990189
+2026-01-14 18:44:58,351 - Model - INFO - Eval avg class IoU of prediction: 0.728177
+2026-01-14 18:44:58,351 - Model - INFO - Eval PD (threshold=0.5): 0.956003
+2026-01-14 18:44:58,351 - Model - INFO - Eval FA (threshold=0.5): 0.000024
+2026-01-14 18:44:58,351 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 18:44:58,352 - Model - INFO - **** Epoch 13 (34/44) ****
+2026-01-14 18:44:58,352 - Model - INFO - Learning rate:0.000047
+2026-01-14 19:18:22,778 - Model - INFO - Training mean loss: 1.426624, SoftIoULoss: 0.665987, Motion Loss: 0.760637
+2026-01-14 19:18:22,778 - Model - INFO - Training accuracy (IoU) of prediction: 0.855889
+2026-01-14 19:18:22,778 - Model - INFO - Save model...
+2026-01-14 19:18:22,778 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_34_model.pth
+2026-01-14 19:18:22,997 - Model - INFO - Saving model....
+2026-01-14 19:18:23,112 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2026-01-14 19:36:08,065 - Model - INFO - Eval mean loss: 1.394360
+2026-01-14 19:36:08,065 - Model - INFO - Eval avg class IoU of prediction: 0.761656
+2026-01-14 19:36:08,065 - Model - INFO - Eval PD (threshold=0.5): 0.946897
+2026-01-14 19:36:08,065 - Model - INFO - Eval FA (threshold=0.5): 0.000014
+2026-01-14 19:36:08,065 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 19:36:08,065 - Model - INFO - **** Epoch 14 (35/44) ****
+2026-01-14 19:36:08,065 - Model - INFO - Learning rate:0.000047
+2026-01-14 20:09:31,117 - Model - INFO - Training mean loss: 1.422305, SoftIoULoss: 0.654196, Motion Loss: 0.768109
+2026-01-14 20:09:31,117 - Model - INFO - Training accuracy (IoU) of prediction: 0.858088
+2026-01-14 20:09:31,117 - Model - INFO - Save model...
+2026-01-14 20:09:31,118 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_35_model.pth
+2026-01-14 20:09:31,247 - Model - INFO - Saving model....
+2026-01-14 20:09:31,359 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2026-01-14 20:27:17,518 - Model - INFO - Eval mean loss: 1.993382
+2026-01-14 20:27:17,518 - Model - INFO - Eval avg class IoU of prediction: 0.786089
+2026-01-14 20:27:17,518 - Model - INFO - Eval PD (threshold=0.5): 0.942056
+2026-01-14 20:27:17,518 - Model - INFO - Eval FA (threshold=0.5): 0.000008
+2026-01-14 20:27:17,518 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 20:27:17,518 - Model - INFO - **** Epoch 15 (36/44) ****
+2026-01-14 20:27:17,518 - Model - INFO - Learning rate:0.000028
+2026-01-14 20:59:54,678 - Model - INFO - Training mean loss: 1.398487, SoftIoULoss: 0.657527, Motion Loss: 0.740959
+2026-01-14 20:59:54,678 - Model - INFO - Training accuracy (IoU) of prediction: 0.857061
+2026-01-14 20:59:54,678 - Model - INFO - Save model...
+2026-01-14 20:59:54,678 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_36_model.pth
+2026-01-14 20:59:54,808 - Model - INFO - Saving model....
+2026-01-14 20:59:54,919 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2026-01-14 21:17:05,175 - Model - INFO - Eval mean loss: 0.892777
+2026-01-14 21:17:05,175 - Model - INFO - Eval avg class IoU of prediction: 0.758194
+2026-01-14 21:17:05,175 - Model - INFO - Eval PD (threshold=0.5): 0.946972
+2026-01-14 21:17:05,175 - Model - INFO - Eval FA (threshold=0.5): 0.000015
+2026-01-14 21:17:05,175 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 21:17:05,175 - Model - INFO - **** Epoch 16 (37/44) ****
+2026-01-14 21:17:05,175 - Model - INFO - Learning rate:0.000028
+2026-01-14 21:49:52,604 - Model - INFO - Training mean loss: 1.382979, SoftIoULoss: 0.652183, Motion Loss: 0.730796
+2026-01-14 21:49:52,604 - Model - INFO - Training accuracy (IoU) of prediction: 0.858626
+2026-01-14 21:49:52,605 - Model - INFO - Save model...
+2026-01-14 21:49:52,605 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_37_model.pth
+2026-01-14 21:49:53,325 - Model - INFO - Saving model....
+2026-01-14 21:49:53,433 - Model - INFO - ---- EPOCH 016 EVALUATION ----
+2026-01-14 22:07:02,391 - Model - INFO - Eval mean loss: 1.311189
+2026-01-14 22:07:02,392 - Model - INFO - Eval avg class IoU of prediction: 0.746180
+2026-01-14 22:07:02,392 - Model - INFO - Eval PD (threshold=0.5): 0.952491
+2026-01-14 22:07:02,392 - Model - INFO - Eval FA (threshold=0.5): 0.000018
+2026-01-14 22:07:02,392 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 22:07:02,392 - Model - INFO - **** Epoch 17 (38/44) ****
+2026-01-14 22:07:02,392 - Model - INFO - Learning rate:0.000028
+2026-01-14 22:39:54,669 - Model - INFO - Training mean loss: 1.408650, SoftIoULoss: 0.663286, Motion Loss: 0.745364
+2026-01-14 22:39:54,669 - Model - INFO - Training accuracy (IoU) of prediction: 0.859040
+2026-01-14 22:39:54,669 - Model - INFO - Save model...
+2026-01-14 22:39:54,669 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_38_model.pth
+2026-01-14 22:39:54,873 - Model - INFO - Saving model....
+2026-01-14 22:39:54,987 - Model - INFO - ---- EPOCH 017 EVALUATION ----
+2026-01-14 22:57:21,725 - Model - INFO - Eval mean loss: 1.201221
+2026-01-14 22:57:21,725 - Model - INFO - Eval avg class IoU of prediction: 0.723564
+2026-01-14 22:57:21,725 - Model - INFO - Eval PD (threshold=0.5): 0.947048
+2026-01-14 22:57:21,725 - Model - INFO - Eval FA (threshold=0.5): 0.000023
+2026-01-14 22:57:21,725 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 22:57:21,725 - Model - INFO - **** Epoch 18 (39/44) ****
+2026-01-14 22:57:21,725 - Model - INFO - Learning rate:0.000028
+2026-01-14 23:30:05,168 - Model - INFO - Training mean loss: 1.385526, SoftIoULoss: 0.652259, Motion Loss: 0.733267
+2026-01-14 23:30:05,168 - Model - INFO - Training accuracy (IoU) of prediction: 0.860043
+2026-01-14 23:30:05,168 - Model - INFO - Save model...
+2026-01-14 23:30:05,168 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_39_model.pth
+2026-01-14 23:30:05,373 - Model - INFO - Saving model....
+2026-01-14 23:30:05,481 - Model - INFO - ---- EPOCH 018 EVALUATION ----
+2026-01-14 23:47:17,453 - Model - INFO - Eval mean loss: 0.931495
+2026-01-14 23:47:17,453 - Model - INFO - Eval avg class IoU of prediction: 0.694601
+2026-01-14 23:47:17,453 - Model - INFO - Eval PD (threshold=0.5): 0.961220
+2026-01-14 23:47:17,453 - Model - INFO - Eval FA (threshold=0.5): 0.000033
+2026-01-14 23:47:17,453 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-14 23:47:17,453 - Model - INFO - **** Epoch 19 (40/44) ****
+2026-01-14 23:47:17,453 - Model - INFO - Learning rate:0.000028
+2026-01-15 00:20:11,600 - Model - INFO - Training mean loss: 1.398738, SoftIoULoss: 0.653404, Motion Loss: 0.745334
+2026-01-15 00:20:11,600 - Model - INFO - Training accuracy (IoU) of prediction: 0.857400
+2026-01-15 00:20:11,600 - Model - INFO - Save model...
+2026-01-15 00:20:11,600 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_40_model.pth
+2026-01-15 00:20:11,806 - Model - INFO - Saving model....
+2026-01-15 00:20:11,913 - Model - INFO - ---- EPOCH 019 EVALUATION ----
+2026-01-15 00:38:00,369 - Model - INFO - Eval mean loss: 1.886099
+2026-01-15 00:38:00,369 - Model - INFO - Eval avg class IoU of prediction: 0.708804
+2026-01-15 00:38:00,369 - Model - INFO - Eval PD (threshold=0.5): 0.942282
+2026-01-15 00:38:00,369 - Model - INFO - Eval FA (threshold=0.5): 0.000025
+2026-01-15 00:38:00,369 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-15 00:38:00,369 - Model - INFO - **** Epoch 20 (41/44) ****
+2026-01-15 00:38:00,370 - Model - INFO - Learning rate:0.000017
+2026-01-15 01:11:03,216 - Model - INFO - Training mean loss: 1.408564, SoftIoULoss: 0.667714, Motion Loss: 0.740850
+2026-01-15 01:11:03,216 - Model - INFO - Training accuracy (IoU) of prediction: 0.859596
+2026-01-15 01:11:03,216 - Model - INFO - Save model...
+2026-01-15 01:11:03,216 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_41_model.pth
+2026-01-15 01:11:03,943 - Model - INFO - Saving model....
+2026-01-15 01:11:04,055 - Model - INFO - ---- EPOCH 020 EVALUATION ----
+2026-01-15 01:28:49,609 - Model - INFO - Eval mean loss: 1.576041
+2026-01-15 01:28:49,609 - Model - INFO - Eval avg class IoU of prediction: 0.740587
+2026-01-15 01:28:49,609 - Model - INFO - Eval PD (threshold=0.5): 0.947399
+2026-01-15 01:28:49,609 - Model - INFO - Eval FA (threshold=0.5): 0.000019
+2026-01-15 01:28:49,609 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-15 01:28:49,610 - Model - INFO - **** Epoch 21 (42/44) ****
+2026-01-15 01:28:49,610 - Model - INFO - Learning rate:0.000017
+2026-01-15 02:01:59,741 - Model - INFO - Training mean loss: 1.388792, SoftIoULoss: 0.661271, Motion Loss: 0.727520
+2026-01-15 02:01:59,741 - Model - INFO - Training accuracy (IoU) of prediction: 0.863379
+2026-01-15 02:01:59,741 - Model - INFO - Save model...
+2026-01-15 02:01:59,741 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_42_model.pth
+2026-01-15 02:01:59,954 - Model - INFO - Saving model....
+2026-01-15 02:02:00,063 - Model - INFO - ---- EPOCH 021 EVALUATION ----
+2026-01-15 02:19:47,560 - Model - INFO - Eval mean loss: 1.873749
+2026-01-15 02:19:47,560 - Model - INFO - Eval avg class IoU of prediction: 0.769113
+2026-01-15 02:19:47,560 - Model - INFO - Eval PD (threshold=0.5): 0.949581
+2026-01-15 02:19:47,560 - Model - INFO - Eval FA (threshold=0.5): 0.000013
+2026-01-15 02:19:47,560 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-15 02:19:47,560 - Model - INFO - **** Epoch 22 (43/44) ****
+2026-01-15 02:19:47,560 - Model - INFO - Learning rate:0.000017
+2026-01-15 02:52:58,258 - Model - INFO - Training mean loss: 1.397222, SoftIoULoss: 0.657538, Motion Loss: 0.739684
+2026-01-15 02:52:58,259 - Model - INFO - Training accuracy (IoU) of prediction: 0.860651
+2026-01-15 02:52:58,259 - Model - INFO - Save model...
+2026-01-15 02:52:58,259 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_43_model.pth
+2026-01-15 02:52:58,389 - Model - INFO - Saving model....
+2026-01-15 02:52:58,501 - Model - INFO - ---- EPOCH 022 EVALUATION ----
+2026-01-15 03:10:43,572 - Model - INFO - Eval mean loss: 1.080786
+2026-01-15 03:10:43,572 - Model - INFO - Eval avg class IoU of prediction: 0.782092
+2026-01-15 03:10:43,572 - Model - INFO - Eval PD (threshold=0.5): 0.951688
+2026-01-15 03:10:43,572 - Model - INFO - Eval FA (threshold=0.5): 0.000010
+2026-01-15 03:10:43,572 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-15 03:10:43,572 - Model - INFO - **** Epoch 23 (44/44) ****
+2026-01-15 03:10:43,572 - Model - INFO - Learning rate:0.000017
+2026-01-15 03:43:55,280 - Model - INFO - Training mean loss: 1.398303, SoftIoULoss: 0.657367, Motion Loss: 0.740936
+2026-01-15 03:43:55,280 - Model - INFO - Training accuracy (IoU) of prediction: 0.860136
+2026-01-15 03:43:55,280 - Model - INFO - Save model...
+2026-01-15 03:43:55,280 - Model - INFO - Saving at log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\checkpoints/epoch_44_model.pth
+2026-01-15 03:43:55,491 - Model - INFO - Saving model....
+2026-01-15 03:43:55,601 - Model - INFO - ---- EPOCH 023 EVALUATION ----
+2026-01-15 04:01:26,969 - Model - INFO - Eval mean loss: 2.854454
+2026-01-15 04:01:26,969 - Model - INFO - Eval avg class IoU of prediction: 0.695135
+2026-01-15 04:01:26,969 - Model - INFO - Eval PD (threshold=0.5): 0.927507
+2026-01-15 04:01:26,969 - Model - INFO - Eval FA (threshold=0.5): 0.000027
+2026-01-15 04:01:26,969 - Model - INFO - Best mIoU_mid: 0.796504
+2026-01-15 04:01:26,979 - Model - INFO - Warning: openpyxl not installed. Saving as CSV instead.
+2026-01-15 04:01:27,500 - Model - INFO - Training results saved to: log\sem_seg\MIRST__2026-01-12_21-41__SoftLoUloss_Repfamily_DataL10\training_results.csv
